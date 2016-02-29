@@ -1,5 +1,3 @@
-## Author: 	Declan McConway
-## Date: 	29th Feb 2016
 ## Purpose: River Flow Calculation
 
 # Overview:
