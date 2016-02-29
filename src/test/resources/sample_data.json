@@ -1,0 +1,46 @@
+{
+    "name" : "South Seymour River",
+    "location" : "Columbia-Shuswap, BC",
+    "measurements": [
+        {
+            "width": 5,
+	        "depth": 1.62,
+	        "velocity" : 1.15
+        },
+        {
+            "width": 5,
+	        "depth": 2.42,
+	        "velocity" : 1.22
+        },
+        {
+            "width": 5,
+	        "depth": 2.63,
+	        "velocity" : 1.32
+        },
+        {
+            "width": 5,
+	        "depth": 2.75,
+	        "velocity" : 1.33
+        },
+        {
+            "width": 5,
+	        "depth": 2.80,
+	        "velocity" : 1.38
+        },
+        {
+            "width": 5,
+	        "depth": 2.77,
+	        "velocity" : 1.32
+        },
+        {
+            "width": 5,
+	        "depth": 2.45,
+	        "velocity" : 1.25
+        },
+        {
+            "width": 5,
+	        "depth": 1.75,
+	        "velocity" : 1.30
+        }
+    ]
+}
