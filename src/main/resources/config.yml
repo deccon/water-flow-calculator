@@ -1,0 +1,13 @@
+applicationName: Water Flow Calculator
+
+logging:
+  level: INFO
+  appenders:
+    - type: file
+      currentLogFilename: ../log/water-flow-calculator.log
+      threshold: INFO
+      archive: true
+      archivedLogFilenamePattern: ../log/water-flow-calculator-%d.log
+      archivedFileCount: 5
+      timeZone: UTC
+      logFormat: # TODO
