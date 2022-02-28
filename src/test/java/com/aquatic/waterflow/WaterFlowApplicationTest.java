@@ -1,7 +1,7 @@
 package com.aquatic.waterflow;
 
 import static org.junit.Assert.*;
-import io.dropwizard.testing.junit.DropwizardAppRule;
+import io.dropwizard.testing.junit5.DropwizardAppExtension;
 
 import org.junit.Before;
 import org.junit.ClassRule;
@@ -15,8 +15,8 @@ import com.aquatic.waterflow.config.ApplicationConfiguration;
 public class WaterFlowApplicationTest {
 
 	@ClassRule
-    public static final DropwizardAppRule<ApplicationConfiguration> RULE =
-            new DropwizardAppRule<ApplicationConfiguration>(WaterFlowApplication.class, "src/test/resources/config.yml");
+    public static final DropwizardAppExtension<ApplicationConfiguration> RULE =
+            new DropwizardAppExtension<ApplicationConfiguration>(WaterFlowApplication.class, "src/test/resources/config.yml");
 	
 	private String name;
 	
